@@ -1,0 +1,27 @@
+<?xml version="1.0"?><project name="preliveChecker" basedir="../" >
+    <description>Build for instance: prod</description>
+
+    <!-- Build directories -->
+    <property name="dist.dir" location="dist" />
+    <property name="build.dir" location="build" />
+
+    <!-- Build scenario -->
+    <target name="build" depends="clean, makedirs, copy" />
+
+    <!-- Clean work folder -->
+    <target name="clean">
+        <delete dir="${dist.dir}" failonerror="false" />
+    </target>
+
+    <!-- Make necessary dirs -->
+    <target name="makedirs">
+        <mkdir dir="${dist.dir}" />
+    </target>
+            <!-- Copy necessary files in dist -->
+    <target name="copy">
+        <copy todir="${dist.dir}" overwrite="true">
+            <fileset dir="src" />
+        </copy>
+     </target>
+
+</project>

@@ -1,0 +1,168 @@
+.wrapper{
+	padding: 15px;
+	margin: 0 auto;
+}
+.prelive-link{
+	height: auto;
+}
+.prelive-link ul li{
+	display: inline-block;
+	padding: 25px;
+}
+ul{
+	list-style: none;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+.domain{
+	border:1px solid black;
+	height: auto;
+}
+.user{
+	border:1px solid black;
+	height: auto;
+}
+.status{
+	border:1px solid black;
+	height: auto;
+}
+.timer{
+	border:1px solid black;
+	height: auto;
+}
+.title{
+	font-size: 26px;
+	font-weight: 700;
+	padding-right: 200px;
+	text-align: center;
+}
+.link-prelive{
+	text-decoration: none;
+	color: black;
+	transition: all 0.5s ease;
+}
+.link-prelive:hover{
+	color:green;
+	text-decoration: none;
+}
+[v-cloak]{
+	display:none;
+}
+.preliveLink{
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+.domainName{
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+.type{
+	width: 36%;
+}
+.success{
+	color:black;
+	background-color: #dff0d8;
+}
+.title-app{
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.danger{
+	background-color: #f2dede;
+	color:black;
+}
+p{
+	height: 60px;
+	line-height: 60px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+p a:hover{
+	text-decoration: none;
+}
+.developer{
+	text-align: center;
+}
+.datePush{
+	text-align: center;
+}
+.no-padding{
+	padding: 0px;
+}
+
+.danger0{
+	background-color: #fcf8e3;
+}
+.danger1{
+	background-color: #fcf8e3;
+}
+.danger2{
+	background-color: #fcf8e3;
+}
+.danger3{
+	background-color: #fcf8e3;
+}
+.danger4{
+	background-color: #fcf8e3;
+}
+.danger5{
+	background-color: #fcf8e3;
+}
+.danger6{
+	background-color: #fcf8e3;
+}
+.danger7{
+	background-color: #fcf8e3;
+}
+.danger8{
+	background-color: #fcf8e3;
+}
+.danger9{
+	background-color: #fcf8e3;
+}
+.danger10{
+	background-color: #fcf8e3;
+}
+span{
+	position: absolute;
+	left: -85px;
+	line-height: 52px;
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+.sample{
+	margin-left: 300px;
+}
+.title-sidebar-list{
+	font-size: 20px;
+	padding-top: 46px;
+	padding-left: 20px;
+}
+.brand-list{
+	font-size: 20px;
+	padding-left: 37px;
+}
+	ul li:first-letter{
+	text-transform: uppercase;
+}
+.btn-document{
+	width: 200px;
+	height: 48px;
+}
+.btn-document a{
+	padding: 35px;
+	line-height: 50px;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+}
+.btn-document a:hover{
+	text-decoration: none;
+}
